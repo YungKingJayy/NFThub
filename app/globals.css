@@ -5,7 +5,7 @@
 
 @layer components {
   .nav-link {
-    @apply py-[1.88rem] px-4 text-[1.1875rem] font-bold text-white capitalize leading-5 cursor-pointer;
+    @apply py-1 lg:py-[1.88rem] px-2 lg:px-4 text-sm lg:text-[1.1875rem] font-bold text-white capitalize leading-5 cursor-pointer;
   }
 
   .nav-link-mobile {
@@ -23,4 +23,17 @@
 
 .nav-link-mobile {
   border-bottom: 1px solid rgba(255, 251, 251, 0.10);
+}
+
+.hero-image {
+  background-image: url("/public/bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn-gradient {
+  gap: 0.5rem;
+  padding: 1.7rem 2.5rem;
+  background: linear-gradient(62deg, #2600FC 0%, #FF00EA 100%) !important;
+  border-radius: 3.125rem;
 }

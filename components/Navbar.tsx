@@ -26,7 +26,7 @@ const Navbar = () => {
           <li><Link href="#" className="nav-link">blog</Link></li>
         </ul>
         <div className="flex items-center gap-[30px]"> 
-          <div className="flex items-center gap-5">
+          <div className="hidden md:flex items-center gap-5">
             <Link href="#" target="_blank"><Image src="/icons/twitter.svg" alt="logo" width={24} height={24} /></Link>
             <Link href="#" target="_blank"><Image src="/icons/discord.svg" alt="logo" width={24} height={24} /></Link>
             <Link href="#" target="_blank"><Image src="/icons/instagram.svg" alt="logo" width={24} height={24} /></Link>
@@ -35,9 +35,9 @@ const Navbar = () => {
           <button className="block md:hidden " onClick={()=>{toggle()}}><Image src="/icons/hamburger.svg" alt="menu" width={30} height={30} /></button>
         </div>
       </nav>
-      <nav className={clsx("block md:hidden w-screen h-screen bg-black absolute transition-all ease-in-out", {
-          "top-0 left-0" : isOpen,
-          "left-full": !isOpen
+      <nav className={clsx("md:hidden w-screen h-screen bg-black absolute z-50 transition-all ease-in-out", {
+          "top-0 left-0 block" : isOpen,
+          "left-full hidden": !isOpen
       })}>
         <div className="flex items-center justify-between pl-[1.62rem] pr-[1.1rem] py-9 bottom-border">
           <Image src="/icons/mobile-logo.svg" alt="logo" width={120} height={35} />
