@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
       </nav>
       {isRendered && (
-        <nav className={clsx("w-screen h-dvh bg-black fixed z-50 transition-all ease-in-out duration-300", {
+        <nav className={clsx("w-screen h-lvh bg-black fixed z-50 transition-all ease-in-out duration-300", {
           "top-0 left-0": isOpen,
           "left-full": !isOpen
         })}>

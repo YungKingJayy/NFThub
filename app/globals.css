@@ -12,9 +12,13 @@
     @apply py-5 pl-[1.56rem] pr-4 text-base font-bold text-white capitalize leading-[1.6875rem] cursor-pointer;
   }
 
-    .mobile-nav-icons > * {
-    @apply flex items-center justify-center border border-[#EFEFEF] rounded-md w-10 h-10;
-    }
+  .mobile-nav-icons > * {
+  @apply flex items-center justify-center border border-[#EFEFEF] rounded-md w-10 h-10;
+  }
+
+  .text-head {
+    @apply text-bold 
+  }
 }
 
 .bottom-border {
@@ -36,4 +40,11 @@
   padding: 1.7rem 2.5rem;
   background: linear-gradient(62deg, #2600FC 0%, #FF00EA 100%) !important;
   border-radius: 3.125rem;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(67deg, #2600FC 0%, #FF00EA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
