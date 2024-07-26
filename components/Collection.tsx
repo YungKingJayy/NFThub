@@ -66,16 +66,16 @@ const Collection = () => {
         <CarouselContent className="-ml-12">
           {collection.map((item, index) => (
             <CarouselItem key={item.id} className="sm:basis-1 md:basis-1/2 lg:basis-1/3 pl-12">
-              <div className="h-[30rem] md:h-[22rem] rounded-2xl">
-                <Card className="w-full h-full !bg-transparent border-0">
-                  <CardContent className="w-full h-full p-0">
-                    <div className="relative w-full h-full">
+              <div className="h-[30rem] rounded-2xl overflow-hidden">
+                <Card className="w-full h-full !bg-transparent border-0 overflow-hidden">
+                  <CardContent className="w-full h-full p-0 overflow-hidden">
+                    <div className="relative w-full h-full overflow-hidden">
                       <Image
                         src={item.image}
                         alt={item.name}
                         layout="fill"
                         objectFit="cover"
-                        className="rounded-2xl"
+                        className="rounded-2xl hover:scale-125 transition-all duration-500 ease-in-out"
                       />
                     </div>
                   </CardContent>

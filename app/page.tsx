@@ -1,8 +1,9 @@
+import Image from "next/image";
+import Choose from "@/components/Choose";
 import Collection from "@/components/Collection";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       {/* <Partners />  */}
       <Collection />
+      <Choose />
     </main>
   );
 }
