@@ -30,7 +30,7 @@ const HowItWorks = () => {
     <motion.section
       style={{ opacity }}
       ref={targetRef}
-      className="flex flex-col  max-w-[78.875rem] mx-auto py-[7.5rem] text-white"
+      className="flex flex-col max-w-[78.875rem] mx-auto py-[7.5rem] text-white"
     >
       <Divider />
       <h2 className="mt-[7.5rem] mb-16 text-[2.625rem] md:text-[4rem] font-bold leading-[2.625rem] md:leading-[4rem] text-center">How it <span className="text-gradient block md:inline">works!</span></h2>
