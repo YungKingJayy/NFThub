@@ -4,6 +4,7 @@ import Collection from "@/components/Collection";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
+import HowItWorks from "@/components/HowItWorks";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       {/* <Partners />  */}
       <Collection />
       <Choose />
+      <HowItWorks />
     </main>
   );
 }

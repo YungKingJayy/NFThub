@@ -42,9 +42,28 @@
   border-radius: 3.125rem;
 }
 
+.form-btn {
+  background: linear-gradient(62deg, #2600FC 0%, #FF00EA 100%) !important;
+  border-radius: 3.125rem;
+}
+
 .text-gradient {
   background: -webkit-linear-gradient(67deg, #2600FC 0%, #FF00EA 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.white-scroll::-webkit-scrollbar {
+  width: 2px;
+}
+
+.white-scroll::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+.scroll-container:hover .white-scroll::-webkit-scrollbar-thumb {
+  visibility: visible;
 }
