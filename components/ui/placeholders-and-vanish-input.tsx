@@ -179,7 +179,7 @@ export function PlaceholdersAndVanishInput({
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex items-center gap-3 w-full max-w-[31.875rem]"
+      className="flex flex-col sm:flex-row items-center gap-3 w-full max-w-[31.875rem]"
     >
     <div
       className={cn(

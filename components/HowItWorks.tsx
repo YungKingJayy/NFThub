@@ -39,9 +39,9 @@ const HowItWorks = () => {
       </div>
 
       <Divider />
-      <div className="mt-[7.5rem] flex flex-col items-center justify-center rounded-[2rem] border border-[#e8e8e840] py-[3.81rem] px-[3.56rem]">
+      <div className="mt-[7.5rem] flex flex-col items-center justify-center rounded-[2rem] border border-[#e8e8e840] py-[3.81rem] px-6 sm:px-[3.56rem]">
         <h2 className="mb-4 text-[2.625rem] md:text-[4rem] font-bold leading-[2.625rem] md:leading-[4rem] text-center">Never <span className="text-gradient block md:inline">miss a drop!</span></h2>
-        <p className="text-gray font-normal text-[1.0625rem] leading-[1.6875rem] mb-[2.2rem]">Subscribe to our super-rare and exclusive drops & collectibles.</p>
+        <p className="text-gray font-normal text-[1.0625rem] leading-[1.6875rem] mb-[2.2rem] text-center sm:text-left">Subscribe to our super-rare and exclusive drops & collectibles.</p>
         <PlaceholdersAndVanishInput
           placeholders={placeholders}
           onChange={handleChange}

@@ -5,6 +5,8 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
 import HowItWorks from "@/components/HowItWorks";
+import Roadmap from "@/components/Roadmap";
+import MeetTheArtist from "@/components/MeetTheArtist";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Collection />
       <Choose />
       <HowItWorks />
+      <Roadmap />
+      <MeetTheArtist />
     </main>
   );
 }
